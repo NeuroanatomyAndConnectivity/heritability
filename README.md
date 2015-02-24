@@ -8,7 +8,7 @@ Edit brainDataName to match brain data you'd like to include.
 
 `run_step_0_make_csv();`
 
-**Step 1: Simply copies clean_pedi into several new directories - one per phenotype file containing X number of traits. **
+**Step 1: Simply copies clean_pedi into several new directories - one per phenotype file containing X number of traits.**
 
 `./run_step_1_make_dirs`
 
