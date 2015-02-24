@@ -1,6 +1,6 @@
+A directory called clean_pedi is necessary to run these scripts. This is the directory from where you can run all your analyses.
 
-A directory called clean_pedi is necessary to run these scripts. This is the directory from where you can run all your analyses. 
-**Step 0: Creates pheno files in .csv format **
+**Step 0: Creates pheno files in .csv format**
 
 Files should be out_*.csv
 
