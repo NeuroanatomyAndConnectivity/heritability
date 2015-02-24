@@ -13,9 +13,6 @@ fi
 # don't modify after this line
 
 pheno_list=`more $1`
-#echo  $
-#echo `head -n 1 ${1}` > tmp.csv
-
 result_file=$2"_results.txt"
 
 # Lets make solar_run file
