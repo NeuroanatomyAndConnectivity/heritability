@@ -17,7 +17,7 @@ do
 	for cur_phen in $pheno_list
 	do
 		header=`echo $cur_phen | awk -F. '{print $1}'`
-		../make_se_file_inorm.sh $header.header $cur_phen
+		x.make_se_file_inorm.sh $header.header $cur_phen
 	done
 
 	cd $spath
