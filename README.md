@@ -1,15 +1,13 @@
-# Once you unzip the directory 
-# You will find a directory called clean_pedi which contains an HCP pedi plus some functional files. This is the directory from where you can run all your analyses. The pedigree file is hcp_pedi.csv. Make sure we used the same subject ids. 
 
+A directory called clean_pedi is necessary to run these scripts. This is the directory from where you can run all your analyses. 
 
-# Step 0: Creates pheno files in .csv format
-# Files should be out_*.csv
+** Step 0: Creates pheno files in .csv format **
 
-matlab &
-edit run_step_0_make_csv.m
-# Edit brainDataName to match brain data you'd like to include.
+Files should be out_*.csv
 
-run_step_0_make_csv();
+Edit brainDataName to match brain data you'd like to include.
+
+`run_step_0_make_csv();
 
 
 # Step 1: Simply copies clean_pedi into several new directories - one per phenotype file containing X number of traits.
